@@ -15,3 +15,22 @@ section.innerHTML = `
 `
 // append
 mainContainer.appendChild(section);
+
+
+
+
+const sectionFinal = document.getElementById('main-container');
+const sectionF = document.createElement('section');
+
+sectionF.innerHTML =`
+<h1> My Final Section Create </h1>
+<p>Lorem ipsum dolor sit amete .</p>
+            <ul>
+                <li> Final item -1</li>
+                <li> Final item -2</li>
+                <li> Final item -3</li>
+            </ul>
+
+`
+mainContainer.appendChild(sectionF);
+sectionF.style.textAlign = 'center';
